@@ -5,6 +5,7 @@
     display: grid;
     height: 75vh;
     margin: 1%;
+    padding: 1%;
     grid-template-columns: repeat(4, 1fr);
     background-color: rgba(196, 194, 194, 0.3);
 }
@@ -13,12 +14,6 @@
     margin-top: 10%;
     text-align: center;
     border: 1px solid #ffffff;
-}
-.tariff__300 {
-    margin-left: 4%;
-}
-.tariff__1000 {
-    margin-right: 4%;
 }
 .tariff__header, .tariff__price, .tariff__option {
     display: flex;
@@ -39,36 +34,35 @@
     background-color: rgba(196, 194, 194, 0.2);
 }
 .tariff__note {
-    height: 13.8vh;
+    height: 10.1vh;
+    padding: 8% 19% 0 19%;
+    letter-spacing: 0.5px;
+    line-height: 150%;
     color: #000000;
     background-color: rgba(196, 194, 194, 0.5);
 }
-.tariff__note p:first-child {
-    margin-top: 0;
-    padding: 4%;
-}
-.tariff__300 .tariff__header {
+.tariff__0 .tariff__header {
     background-color: rgb(51, 151, 178, 0.8);
 }
-.tariff__300 .tariff__price {
+.tariff__0 .tariff__price {
     background-color: rgb(51, 151, 178, 0.5);
 }
-.tariff__450 .tariff__header {
+.tariff__1 .tariff__header {
     background-color: rgb(78, 180, 146, 0.8);
 }
-.tariff__450 .tariff__price {
+.tariff__1 .tariff__price {
     background-color: rgb(78, 180, 146, 0.5);
 }
-.tariff__550 .tariff__header {
+.tariff__2 .tariff__header {
     background-color: rgba(247, 10, 89, 0.8);
 }
-.tariff__550 .tariff__price {
+.tariff__2 .tariff__price {
     background-color: rgba(247, 10, 89, 0.5);
 }
-.tariff__1000 .tariff__header {
+.tariff__3 .tariff__header {
     background-color: rgba(21, 19, 19, 0.8);
 }
-.tariff__1000 .tariff__price {
+.tariff__3 .tariff__price {
     background-color: rgba(21, 19, 19, 0.5);
 }
 .tariff__currency {

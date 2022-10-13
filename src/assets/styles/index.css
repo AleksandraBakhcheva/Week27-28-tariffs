@@ -74,11 +74,11 @@
 .tariff__period {
     margin: 11% 0 0 1%;
 }
-.selected {
+.tariff__2 {
     margin-top: 7%;
     height: 68vh;
 }
-.selected .tariff__header {
+.tariff__2 .tariff__header {
     height: 18vh;
 } 
 @media screen and (max-width: 480px) {

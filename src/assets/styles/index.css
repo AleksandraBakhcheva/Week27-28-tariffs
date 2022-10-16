@@ -7,13 +7,17 @@
     margin: 1%;
     padding: 1%;
     grid-template-columns: repeat(4, 1fr);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
     background-color: rgba(196, 194, 194, 0.3);
 }
 .tariff {
     height: 65vh;
     margin-top: 10%;
     text-align: center;
-    border: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;   
+}
+.tariff__3 {
+    border-right: 1px solid #ffffff;
 }
 .tariff__header, .tariff__price, .tariff__option {
     display: flex;
@@ -74,12 +78,11 @@
 .tariff__period {
     margin: 11% 0 0 1%;
 }
-.tariff__2 {
-    margin-top: 7%;
-    height: 68vh;
+.selected {
+    margin-top: -4.5%;    
 }
-.tariff__2 .tariff__header {
-    height: 18vh;
+.selected .tariff__header {
+    height: 19vh;
 } 
 @media screen and (max-width: 480px) {
     .container {

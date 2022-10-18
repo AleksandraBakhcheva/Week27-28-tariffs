@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Week27-practice1/static/css/main.63a786da.css",
-    "main.js": "/Week27-practice1/static/js/main.c2bc0cec.js",
-    "static/js/787.a2d3872a.chunk.js": "/Week27-practice1/static/js/787.a2d3872a.chunk.js",
-    "index.html": "/Week27-practice1/index.html",
-    "main.63a786da.css.map": "/Week27-practice1/static/css/main.63a786da.css.map",
-    "main.c2bc0cec.js.map": "/Week27-practice1/static/js/main.c2bc0cec.js.map",
-    "787.a2d3872a.chunk.js.map": "/Week27-practice1/static/js/787.a2d3872a.chunk.js.map"
+    "main.css": "/Week27-28-tariffs/static/css/main.63a786da.css",
+    "main.js": "/Week27-28-tariffs/static/js/main.02f683b9.js",
+    "static/js/787.a2d3872a.chunk.js": "/Week27-28-tariffs/static/js/787.a2d3872a.chunk.js",
+    "index.html": "/Week27-28-tariffs/index.html",
+    "main.63a786da.css.map": "/Week27-28-tariffs/static/css/main.63a786da.css.map",
+    "main.02f683b9.js.map": "/Week27-28-tariffs/static/js/main.02f683b9.js.map",
+    "787.a2d3872a.chunk.js.map": "/Week27-28-tariffs/static/js/787.a2d3872a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63a786da.css",
-    "static/js/main.c2bc0cec.js"
+    "static/js/main.02f683b9.js"
   ]
 }

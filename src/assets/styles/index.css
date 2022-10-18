@@ -14,7 +14,8 @@
     height: 65vh;
     margin-top: 10%;
     text-align: center;
-    border-left: 1px solid #ffffff;   
+    border-left: 1px solid #ffffff;  
+    cursor: pointer; 
 }
 .tariff__3 {
     border-right: 1px solid #ffffff;

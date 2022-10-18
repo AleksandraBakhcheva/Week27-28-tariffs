@@ -22,7 +22,6 @@ const tariffs = [
         price: " /мес",
         option: "до 100 Мбит/сек",
         note: "Объем включенного трафика не ограничен",
-        isSelected: true,
     },
     {
         header: "Безлимитный 1000",

@@ -1,17 +1,32 @@
 import "../styles/index.css";
-import React, { useState } from 'react';
 
 function Tariff(props) {
-    const {header, currency, amount, price, option, note} = props;
+    
+    const {
+            index,
+            header, 
+            currency, 
+            amount, 
+            price, 
+            option, 
+            note, 
+            isActive, 
+            onClick
+        } = props;
 
-    const [isSelected, setSelected] = useState(props.isSelected === false);
+        const handleClick = () => {
+            onClick(index);
+        }
 
-    const handleClick = () => {
-        setSelected(!isSelected);
-    };
+        let className = "tariff tariff__";
+            className += "" + index;
 
+        if (isActive) {
+            className += " selected";
+        }
+        
     return (
-        <div onClick={handleClick} className={isSelected ? "selected" : undefined}>
+        <div onClick={handleClick} className={className}>
             <h2 className="tariff__header">{header}</h2>
             <div className="tariff__price">
                 <p className="tariff__currency">{currency}</p>

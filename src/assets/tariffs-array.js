@@ -1,5 +1,6 @@
 const tariffs = [
     {
+        index: 0,
         header: "Безлимитный 300",
         currency: "руб",
         amount: 300,
@@ -8,6 +9,7 @@ const tariffs = [
         note: "Объем включенного трафика не ограничен",
     },
     {
+        index: 1,
         header: "Безлимитный 450",
         currency: "руб",
         amount: 450,
@@ -16,6 +18,7 @@ const tariffs = [
         note: "Объем включенного трафика не ограничен",
     },
     {
+        index: 2,
         header: "Безлимитный 550",
         currency: "руб",
         amount: 550,
@@ -24,6 +27,7 @@ const tariffs = [
         note: "Объем включенного трафика не ограничен",
     },
     {
+        index: 3,
         header: "Безлимитный 1000",
         currency: "руб",
         amount: 1000,
